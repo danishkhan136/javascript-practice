@@ -297,3 +297,9 @@
 // document.querySelector("ul").addEventListener("click",function(dets){
 //     dets.target.classList.toggle("lt");
 // });
+
+
+let a = document.querySelector(".a");
+let a = document.querySelector(".a");
+let a = document.querySelector(".a");
+let a = document.querySelector(".a");
