@@ -360,3 +360,33 @@
 
 // jis pa ture hai sab sa pehla aus ka capture phase chala gaa aur agar koi capture nahi to direct bubbling chala gaa
 // capture>bubbling
+
+// let inp = document.querySelector("input");
+// let span = document.querySelector("span");
+// let characterLeft = document.querySelector("#characterleft")
+
+// inp.addEventListener("input", function () {
+//     span.textContent = inp.value.length;
+//    let left = 20 -inp.value.length;
+//     span.textContent= left;
+//    if(left <0){
+//     span.style.color = "red";
+//    }
+//    else
+//    {
+//     span.style.color = "black";
+//    }
+// });
+
+
+
+// inp.addEventListener("input", function () {
+//     span.textContent = inp.value.length;
+//     characterLeft.textContent = 20 - inp.value.length;
+//     if (inp.value.length >= 20) {
+//         alert("Only 20 characters allowed!");
+
+//         // extra characters remove
+//         inp.value = inp.value.slice(0, 20);
+//     }
+// });
