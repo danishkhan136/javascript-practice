@@ -299,23 +299,64 @@
 // });
 
 
-let a = document.querySelector(".a");
-let b = document.querySelector(".b");
-let c = document.querySelector(".c");
-let btn = document.querySelector("button");
+// let a = document.querySelector(".a");
+// let b = document.querySelector(".b");
+// let c = document.querySelector(".c");
+// let btn = document.querySelector("button");
 
-btn.addEventListener("click",function(){
-    console.log("button clicked");
-});
+// btn.addEventListener("click",function(){
+//     console.log("button clicked");
+// });
 
-c.addEventListener("click",function(){
-    console.log("C clicked");
-});
+// c.addEventListener("click",function(){
+//     console.log("C clicked");
+// });
 
-b.addEventListener("click",function(){
-    console.log("B clicked");
-});
+// b.addEventListener("click",function(){
+//     console.log("B clicked");
+// });
 
-a.addEventListener("click",function(){
-    console.log("A clicked");
-});
+// a.addEventListener("click",function(){
+//     console.log("A clicked");
+// });
+
+// JAB BHI APPCLICK KARTE HOO YA KOI EVENT RAISE KARTA HOO TO APKA JOO EVENT HOTA HAI WO 2 PHASE MA CHLATA HAI
+// PHASE 1: EVENT TOP LEVEL ELEMENT SA NEECHA KI TARAF AYII GAA
+// PHASE 2: EVENT RAISED ELEMENT SA PARENT KI PARENT KI TARF GAI GAA
+
+// AUR PEHLA PHASE 1 HOTI HAI
+
+// HAMESHA PHASE 1 HII PLHKAA HOTI HAI PAR YA BY DEFEAULTOFF RETHI HAI
+
+// AGAR ON KAR DAIN PHIR PHIR PHASE 1 HII PEHLA CHALA GAA YA AUS KA ANSWER MILA GAA
+
+
+// hota ya ka pela capture phase phir bubbling 
+// par by defeault cature off hota hai
+// is lia direct bubbling chalgata hai
+// lakin hum capture phase on kar sakta hain
+
+
+// let a = document.querySelector(".a");
+// let b = document.querySelector(".b");
+// let c = document.querySelector(".c");
+// let btn = document.querySelector("button");
+
+// btn.addEventListener("click",function(){
+//     console.log("button clicked");
+// });
+
+// c.addEventListener("click",function(){
+//     console.log("C clicked");
+// });
+
+// b.addEventListener("click",function(){
+//     console.log("B clicked");
+// });
+
+// a.addEventListener("click",function(){
+//     console.log("A clicked");
+// }, true);
+
+// jis pa ture hai sab sa pehla aus ka capture phase chala gaa aur agar koi capture nahi to direct bubbling chala gaa
+// capture>bubbling
