@@ -300,6 +300,22 @@
 
 
 let a = document.querySelector(".a");
-let a = document.querySelector(".a");
-let a = document.querySelector(".a");
-let a = document.querySelector(".a");
+let b = document.querySelector(".b");
+let c = document.querySelector(".c");
+let btn = document.querySelector("button");
+
+btn.addEventListener("click",function(){
+    console.log("button clicked");
+});
+
+c.addEventListener("click",function(){
+    console.log("C clicked");
+});
+
+b.addEventListener("click",function(){
+    console.log("B clicked");
+});
+
+a.addEventListener("click",function(){
+    console.log("A clicked");
+});
