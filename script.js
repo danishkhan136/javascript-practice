@@ -828,3 +828,12 @@
 // // Withdraw
 // account.withdraw = 2000;
 // console.log(account.balance);//7000
+
+
+
+
+
+// FORM AND FORM VALIDATION
+
+let form = document.querySelector("form");
+let name = document.querySelector("#name");
