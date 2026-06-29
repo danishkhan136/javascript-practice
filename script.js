@@ -746,7 +746,7 @@
 // console.log(mobile.details);
 
 
-// BANK ACCOUT USING GETTER AND SETTER
+// BANK ACCOUT USING GETTER AND SETTER (1)
 
 // const account = {
 //     _balance: 5000,
@@ -782,3 +782,49 @@
 // account.withdraw = 2000;
 
 // console.log(account.balance); // 7000
+
+
+
+
+// BANK ACCOUT USING GETTER AND SETTER (2)
+
+
+// const account = {
+//     _balance: 5000,
+
+//     // Getter
+//     get balance() {
+//         return `Your current balance is Rs.${this._balance}`;
+//     },
+
+//     // Deposit Setter
+//     set deposit(amount) {
+//         if (amount > 0) {
+//             this._balance += amount;
+//         } else {
+//             console.log("Deposit amount must be greater than 0.");
+//         }
+//     },
+
+//     // Withdraw Setter
+//     set withdraw(amount) {
+//         if (amount <= 0) {
+//             console.log("Withdrawal amount must be greater than 0.");
+//         } else if (amount > this._balance) {
+//             console.log("Insufficient Balance.");
+//         } else {
+//             this._balance -= amount;
+//         }
+//     }
+// };
+
+// // Initial Balance
+// console.log(account.balance);//5000
+
+// // Deposit
+// account.deposit = 4000;
+// console.log(account.balance);//9000
+
+// // Withdraw
+// account.withdraw = 2000;
+// console.log(account.balance);//7000
