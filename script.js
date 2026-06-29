@@ -392,9 +392,9 @@
 // });
 
 // 29/06/2026
-// gettet and setter problems
+// gettet and setter problems 
 
-// problem 1 of getter
+// problem 1 of getter / problem 1
 
 // const student = {
 //     name: "danish",
@@ -407,3 +407,25 @@
 
 
 // console.log(student.studentName);
+
+
+// problem 1 of setter / problem 2
+
+// Create an object called car.
+
+// Property:
+// speed = 60
+
+// Create a setter called carSpeed.
+
+// Rules:
+// - If the value is greater than or equal to 0,
+//   update speed.
+// - Otherwise print:
+//   "Invalid Speed"
+
+// Test it like this:
+
+// car.carSpeed = 100;
+
+// console.log(car.speed);
