@@ -673,7 +673,7 @@
 // console.log(account.balance); // 7000
 
 
-// problem 2 of setter / problem 5
+// problem 2 of getter / problem 5
 
 // Object
 
@@ -714,3 +714,33 @@
 // }
 
 // console.log(movie.movieTitle);
+
+
+// problem 2 of getter and setter Answer /problem 6
+
+
+// const mobile = {
+
+//     _brand : "Samsung",
+//     price : 80000,
+    
+//     get details(){
+//         return this._brand+" - Rs."+this.price;
+//     },
+
+//     set newPrice(value){
+//         if (value>0){
+//             this.price= value
+//         }
+//         else{
+//             console.log("Invalid price");
+//         }
+//     }
+
+// }
+
+// console.log(mobile.details);
+
+// mobile.newPrice=55555;
+
+// console.log(mobile.details);
