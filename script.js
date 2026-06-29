@@ -744,3 +744,41 @@
 // mobile.newPrice=55555;
 
 // console.log(mobile.details);
+
+
+// BANK ACCOUT USING GETTER AND SETTER
+
+// const account = {
+//     _balance: 5000,
+
+//     get balance() {
+//         return this._balance;
+//     },
+
+//     set deposit(amount) {
+//         if (amount > 0 ) {
+//             this._balance += amount;
+//         } else {
+//             console.log("Invalid Amount");
+//         }
+//     },
+
+//     set withdraw(amount) {
+//         if (amount > 0 && amount <= this._balance) {
+//             this._balance -= amount;
+//         } else {
+//             console.log("Invalid Amount");
+//         }
+//     }
+// };
+
+
+// console.log(account.balance); // 5000
+
+// account.deposit = 4000;
+
+// console.log(account.balance); // 9000
+
+// account.withdraw = 2000;
+
+// console.log(account.balance); // 7000
