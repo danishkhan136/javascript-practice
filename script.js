@@ -671,3 +671,31 @@
 // account.deposit = 2000;
 
 // console.log(account.balance); // 7000
+
+
+// problem 2 of setter / problem 5
+
+// Object
+
+// const movie = {
+//     title: "Interstellar"
+// }
+
+// Getter
+
+// movieTitle
+
+// Instead of returning
+
+// Interstellar
+
+// Return
+
+// Movie: Interstellar
+
+// Output
+
+// console.log(movie.movieTitle);
+// Movie: Interstellar
+
+// Notice that the original property is still just "Interstellar", but the getter formats it before returning it.
