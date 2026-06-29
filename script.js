@@ -411,6 +411,8 @@
 
 // problem 1 of setter / problem 2
 
+//Question
+
 // Create an object called car.
 
 // Property:
@@ -427,5 +429,25 @@
 // Test it like this:
 
 // car.carSpeed = 100;
+
+// console.log(car.speed);
+
+
+//setter problem 1 answer
+
+
+// const car = {
+//     speed: 60,
+
+//     set carspeed(value) {
+//         if (value >= 0) {
+//             this.speed = value;
+//         } else {
+//             console.log("Invalid Speed");
+//         }
+//     }
+// };
+
+// car.carspeed = 25;
 
 // console.log(car.speed);
