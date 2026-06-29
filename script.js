@@ -538,3 +538,35 @@
 // Invalid Speed! Speed has been reset to 0.
 // Getter Called!
 // 0
+
+// problem 1 of getter and setter / problem 3
+
+// Create an object named person.
+
+// Property:
+
+// name: "Ali"
+
+// Getter:
+
+// fullName
+
+// should return the name.
+
+// Setter:
+
+// fullName
+
+// should update the name.
+
+// Example
+
+// person.fullName = "Danish";
+
+// console.log(person.fullName);
+
+// Output
+
+// Danish
+
+
