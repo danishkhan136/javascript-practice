@@ -393,3 +393,17 @@
 
 // 29/06/2026
 // gettet and setter problems
+
+// p1
+
+// const student = {
+//     name: "danish",
+//     age: 22,
+    
+//     get studentName() {
+//         return this.name;
+//     }
+// };
+
+
+// console.log(student.studentName);
