@@ -588,3 +588,37 @@
 // person.fullName = "Ali";
 
 // console.log(person.fullName); // Ali
+
+
+// problem 2 of setter / problem 4
+
+// (Setter with Validation)
+
+// Create an object
+
+// const account = {
+//     balance: 5000
+// }
+
+// Create a setter called
+
+// newBalance
+
+// Rules
+
+// Balance cannot be negative.
+// If valid → update it.
+// Otherwise print
+// Balance cannot be negative
+
+// Example
+
+// account.newBalance = -100;
+
+// Output
+
+// Balance cannot be negative
+
+// Balance should still be
+
+// 5000
