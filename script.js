@@ -699,3 +699,25 @@
 // Movie: Interstellar
 
 // Notice that the original property is still just "Interstellar", but the getter formats it before returning it.
+
+
+// problem 2 of getter Answer
+
+const movie = {
+
+    title: "Interstellar",
+
+
+
+get movieTitle(){
+
+return "Movie: "+this.title;
+
+}
+
+
+}
+
+
+
+console.log(movie.movieTitle);
