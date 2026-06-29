@@ -626,12 +626,15 @@
 
 // problem 2 of setter Answer
 
+
+// version 1
+
 // const account = {
 //     balance: 5000,
 
 //     set newBalance(value) {
 //         if (value > 0) {
-//             this.balance = this.balance + value;
+//             this.balance += value;
 //         } else {
 //             console.log("Invalid Value");
 //         }
@@ -641,3 +644,30 @@
 // account.newBalance = 2000;
 
 // console.log(account.balance);
+
+
+// version 2
+
+// ⭐ Professional Version (Getter + Setter)
+
+// const account = {
+//     _balance: 5000,
+
+//     get balance() {
+//         return this._balance;
+//     },
+
+//     set deposit(amount) {
+//         if (amount > 0) {
+//             this._balance += amount;
+//         } else {
+//             console.log("Invalid Amount");
+//         }
+//     }
+// };
+
+// console.log(account.balance); // 5000
+
+// account.deposit = 2000;
+
+// console.log(account.balance); // 7000
