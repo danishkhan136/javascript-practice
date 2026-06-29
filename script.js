@@ -703,21 +703,14 @@
 
 // problem 2 of getter Answer
 
-const movie = {
+// const movie = {
 
-    title: "Interstellar",
+//     title: "Interstellar",
+    
+//     get movieTitle(){
+//         return "Movie: "+this.title;
+//     }
 
+// }
 
-
-get movieTitle(){
-
-return "Movie: "+this.title;
-
-}
-
-
-}
-
-
-
-console.log(movie.movieTitle);
+// console.log(movie.movieTitle);
