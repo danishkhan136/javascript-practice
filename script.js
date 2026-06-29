@@ -436,6 +436,8 @@
 //setter problem 1 answer
 
 
+//version 1
+
 // const car = {
 //     speed: 60,
 
@@ -451,3 +453,88 @@
 // car.carspeed = 25;
 
 // console.log(car.speed);
+
+
+//version 2
+
+// const car = {
+//     speed: 60,
+
+//     set carspeed(value) {
+//         if (value >= 0) {
+//             this.speed = value;
+//         } else {
+//             alert("Invalid Speed! Speed! reset to 0");
+//             console.log("Invalid Speed! Speed has been reset to 0.");
+//             this.speed = 0;
+//         }
+//     }
+// };
+
+// car.carspeed = -50;
+
+// console.log(car.speed);
+
+
+// version 3
+
+// const car = {
+//     _speed: 60,
+
+//     get carspeed() {
+//         return this._speed;
+//     },
+
+//     set carspeed(value) {
+//         if (value >= 0) {
+//             this._speed = value;
+//         } else {
+//             console.log("Invalid Speed");
+//         }
+//     }
+// };
+
+
+// version 4
+
+// const car = {
+//     _speed: 60,
+
+//     // Getter
+//     get carspeed() {
+//         console.log("Getter Called!");
+//         return this._speed;
+//     },
+
+//     // Setter
+//     set carspeed(value) {
+//         console.log("Setter Called!");
+
+//         if (value >= 0) {
+//             this._speed = value;
+//         } else {
+//             console.log("Invalid Speed! Speed has been reset to 0.");
+//             this._speed = 0;
+//         }
+//     }
+// };
+
+// // Valid speed
+// car.carspeed = 120;          // Calls Setter
+// console.log(car.carspeed);   // Calls Getter
+
+// // Invalid speed
+// car.carspeed = -50;          // Calls Setter
+// console.log(car.carspeed);   // Calls Getter
+
+
+
+// Output
+// Setter Called!
+// Getter Called!
+// 120
+
+// Setter Called!
+// Invalid Speed! Speed has been reset to 0.
+// Getter Called!
+// 0
