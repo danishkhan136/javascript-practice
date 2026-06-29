@@ -622,3 +622,22 @@
 // Balance should still be
 
 // 5000
+
+
+// problem 2 of setter Answer
+
+// const account = {
+//     balance: 5000,
+
+//     set newBalance(value) {
+//         if (value > 0) {
+//             this.balance = this.balance + value;
+//         } else {
+//             console.log("Invalid Value");
+//         }
+//     }
+// };
+
+// account.newBalance = 2000;
+
+// console.log(account.balance);
