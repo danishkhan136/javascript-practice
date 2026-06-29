@@ -286,6 +286,16 @@
             height: 80%;
             background-color: red;
         } */
+
+        small{
+            color: red;
+            font-size: 12px;
+            display: none;
+        }
+
+        hide {
+            display: none;
+        }
     </style>
 </head>
 
@@ -458,6 +468,10 @@
 
     <form >
         <input id="name" type="text" placeholder="name">
+        <div id="hide">
+        <br>
+        <small>your name should be greater than 2 characters</small>
+        </div>
         <br><br>
         <input type="email" placeholder="email">
         <br><br>

@@ -837,3 +837,11 @@
 
 let form = document.querySelector("form");
 let name = document.querySelector("#name");
+
+form.addEventListener("submit",function(dets){
+    dets.preventDefault();
+
+    if(this.name.length>2){
+        
+    }
+});
