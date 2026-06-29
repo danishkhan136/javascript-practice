@@ -394,7 +394,7 @@
 // 29/06/2026
 // gettet and setter problems
 
-// p1
+// problem 1 of getter
 
 // const student = {
 //     name: "danish",
