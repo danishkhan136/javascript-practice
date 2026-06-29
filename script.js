@@ -569,4 +569,22 @@
 
 // Danish
 
+// problem 1 of getter and setter Answer
 
+// const person = {
+//     _name: "Danish",
+
+//     get fullName() {
+//         return this._name;
+//     },
+
+//     set fullName(value) {
+//         this._name = value;
+//     }
+// };
+
+// console.log(person.fullName); // Danish
+
+// person.fullName = "Ali";
+
+// console.log(person.fullName); // Ali
