@@ -835,21 +835,22 @@
 
 // FORM AND FORM VALIDATION
 
-let form = document.querySelector("form");
-let name = document.querySelector("#name");
+// let form = document.querySelector("form");
+// let name = document.querySelector("#name");
 
-form.addEventListener("submit", function (dets) {
-    dets.preventDefault();
+// form.addEventListener("submit", function (dets) {
+//     dets.preventDefault();
 
-    if (name.value.length <= 2) {
-        document.querySelector("#hide").style.display = "initial";
-    }
-    else {
-        document.querySelector("#hide").style.display = "none";
-    }
+//     if (name.value.length <= 2) {
+//         document.querySelector("#hide").style.display = "initial";
+//     }
+//     else {
+//         document.querySelector("#hide").style.display = "none";
+//     }
 
-    const regex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[A-Za-z]{2,}$/;
-    console.log(regex.test("danish2@gmail.com"));
-});
+//     const regex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[A-Za-z]{2,}$/;
+//     let ans = regex.test("danish2@gmail.com");
+//     console.log(ans);
+// });
 
 // 30/06/2026
