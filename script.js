@@ -841,7 +841,12 @@ let name = document.querySelector("#name");
 form.addEventListener("submit",function(dets){
     dets.preventDefault();
 
-    if(this.name.length>2){
-        
+    if(name.value.length <= 2){
+        document.querySelector("#hide").style.display="initial";
+    }
+    else{
+        document.querySelector("#hide").style.display="none";
     }
 });
+
+// 30/06/2026
