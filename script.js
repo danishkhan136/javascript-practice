@@ -854,3 +854,46 @@
 // });
 
 // 30/06/2026
+
+//EMAIL and PASSWORD VALIDATOR
+
+
+let form = document.querySelector("form");
+let email = document.querySelector("#email");
+let password = document.querySelector("#password");
+
+form.addEventListener("submit", function (e) {
+    e.preventDefault();
+
+    document.querySelector("#email-error").textContent = "";
+    document.querySelector("#password-error").textContent = "";
+
+
+    const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[A-Za-z]{2,}$/;
+
+    const passwordRegex =
+        /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&^#()_+\-=\[\]{};':"\\|,.<>\/~`])[A-Za-z\d@$!%*?&^#()_+\-=\[\]{};':"\\|,.<>\/~`]{8,}$/;
+
+    let emailans = emailRegex.test(email.value);
+    let passwordans = passwordRegex.test(password.value);
+
+
+    isValid = true;
+
+    if (!emailans) {
+        document.querySelector("#email-error").textContent = "Email is Incorrect";
+        document.querySelector("#email-error").style.display = "initial";
+        isValid = false;
+    }
+
+    if (!passwordans) {
+        document.querySelector("#password-error").textContent = "password is Incorrect";
+        document.querySelector("#password-error").style.display = "initial";
+        isValid = false;
+    }
+
+    if (isValid) {
+        document.querySelector("#resultMessage").textContent = "Everyting is correct";
+        document.querySelector("#resultMessage").style.color = "green";
+    }
+});
