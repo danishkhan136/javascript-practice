@@ -399,7 +399,7 @@
 // const student = {
 //     name: "danish",
 //     age: 22,
-    
+
 //     get studentName() {
 //         return this.name;
 //     }
@@ -706,7 +706,7 @@
 // const movie = {
 
 //     title: "Interstellar",
-    
+
 //     get movieTitle(){
 //         return "Movie: "+this.title;
 //     }
@@ -723,7 +723,7 @@
 
 //     _brand : "Samsung",
 //     price : 80000,
-    
+
 //     get details(){
 //         return this._brand+" - Rs."+this.price;
 //     },
@@ -838,15 +838,18 @@
 let form = document.querySelector("form");
 let name = document.querySelector("#name");
 
-form.addEventListener("submit",function(dets){
+form.addEventListener("submit", function (dets) {
     dets.preventDefault();
 
-    if(name.value.length <= 2){
-        document.querySelector("#hide").style.display="initial";
+    if (name.value.length <= 2) {
+        document.querySelector("#hide").style.display = "initial";
     }
-    else{
-        document.querySelector("#hide").style.display="none";
+    else {
+        document.querySelector("#hide").style.display = "none";
     }
+
+    const regex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[A-Za-z]{2,}$/;
+    console.log(regex.test("danish2@gmail.com"));
 });
 
 // 30/06/2026
