@@ -15,7 +15,9 @@ body {
 
 /* EMAIL and PASSWORD VALIDATOR */
 
-.container {
+/* #region EMAIL and PASSWORD VALIDATOR */
+
+/* .container {
     width: 100%;
     max-width: 400px;
     padding: 20px;
@@ -94,4 +96,6 @@ button:hover {
     font-size: 12px;
     display: none;
 
-}
+} */
+
+/* #endregion */
