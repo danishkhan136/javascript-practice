@@ -978,3 +978,12 @@
 // 5000);
 
 // clearInterval(cin);
+
+// let count=10
+
+// setInterval(function(){
+//     if(count>=1){
+//     count--;
+//     console.log(count);
+//     }
+// },1000);
