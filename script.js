@@ -957,3 +957,24 @@
 //     console.log("hello");
 // },
 // 5000);
+
+
+// CLEARTIMEOUT AND CLEARINTERVAL
+
+//clearTimeout
+
+// let cto = setTimeout(function(){
+//     console.log("hello");
+// },
+// 5000);
+
+// clearTimeout(cto);
+
+//clearInterval
+
+// let cin = setInterval(function(){
+//     console.log("hello");
+// },
+// 5000);
+
+// clearInterval(cin);
