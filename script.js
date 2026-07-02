@@ -938,3 +938,15 @@
 //     }
 
 // });
+
+
+// 02/07/2026
+
+// SET TIMEOUT AND SET INTERVAL
+
+//setTimeout
+
+setTimeout(function(){
+    console.log("hello");
+},
+5000);
