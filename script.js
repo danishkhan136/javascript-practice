@@ -940,7 +940,11 @@
 // });
 
 
+
 // 02/07/2026
+
+
+
 
 // SET TIMEOUT AND SET INTERVAL
 
@@ -991,12 +995,12 @@
 // },1000);
 
 
-let interval = setInterval(function(){
-    if(count>=1){
-    count--;
-    console.log(count);
-    }
-    else{
-        clearInterval(interval);
-    }
-},1000);
+// let interval = setInterval(function(){
+//     if(count>=1){
+//     count--;
+//     console.log(count);
+//     }
+//     else{
+//         clearInterval(interval);
+//     }
+// },1000);
