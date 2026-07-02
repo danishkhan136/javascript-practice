@@ -946,7 +946,14 @@
 
 //setTimeout
 
-setTimeout(function(){
-    console.log("hello");
-},
-5000);
+// setTimeout(function(){
+//     console.log("hello");
+// },
+// 5000);
+
+//setInterval
+
+// setInterval(function(){
+//     console.log("hello");
+// },
+// 5000);
