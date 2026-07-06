@@ -548,29 +548,33 @@
     </div> -->
 
 
-  <div class="download-card">
-    <div class="icon">⬇</div>
+    <!-- 06/07/2026 -->
 
-    <h2>Download File</h2>
-    <p>Your file is ready to download</p>
+    <!-- login validator practice -->
 
-    <div class="file-box">
-      <span>project-files.zip</span>
-      <small>48.6 MB</small>
+    <div class="container">
+        <h2>
+            Login Validator Practice
+        </h2>
+        <form autocomplete="off" id="form">
+
+            <div class="input-group">
+                <label for="email">Email</label>
+                <input type="text" id="email" placeholder="Enter your Email">
+                <small class="error" id="email-error"></small>
+            </div>
+
+             <div class="input-group">
+                <label for="password">Password</label>
+                <input type="text" id="password" placeholder="Enter your Password">
+                <small class="error" id="password"></small>
+            </div>
+
+            <button type="submit">VALIDATE</button>
+        </form>
+
+       <div class="resultMessage"></div> <!--  optional -->
     </div>
-
-    <div class="progress-area">
-      <div class="progress-bar">
-        <div class="progress"></div>
-      </div>
-      <div class="progress-info">
-        <span>Downloading...</span>
-        <span></span>
-      </div>
-    </div>
-
-    <button>Start Download</button>
-  </div>
 
 
     <script src="./script.js"></script>
