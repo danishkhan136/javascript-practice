@@ -1009,43 +1009,65 @@
 // 06/02/2026
 
 /* login validator practice */
-let email = document.querySelector("email");
-let password = document.querySelector("password");
-let form = document.querySelector("form");
+// let email = document.querySelector("email");
+// let password = document.querySelector("password");
+// let form = document.querySelector("form");
 
-form.addEventListener("submit", function(e){
-    e.preventDefault();
+// form.addEventListener("submit", function(e){
+//     e.preventDefault();
 
 
-    document.querySelector("#email-error").textContent = "";
-    document.querySelector("#password-error").textContent = "";
+//     document.querySelector("#email-error").textContent = "";
+//     document.querySelector("#password-error").textContent = "";
 
     
-    const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[A-Za-z]{2,}$/;
+//     const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[A-Za-z]{2,}$/;
 
-    const passwordRegex =
-        /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&^#()_+\-=\[\]{};':"\\|,.<>\/~`])[A-Za-z\d@$!%*?&^#()_+\-=\[\]{};':"\\|,.<>\/~`]{8,}$/;
+//     const passwordRegex =
+//         /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&^#()_+\-=\[\]{};':"\\|,.<>\/~`])[A-Za-z\d@$!%*?&^#()_+\-=\[\]{};':"\\|,.<>\/~`]{8,}$/;
 
-    let emailans=emailRegex.test(email.value);
-    let passwordans=passwordRegex.test(password.value);
+//     let emailans=emailRegex.test(email.value);
+//     let passwordans=passwordRegex.test(password.value);
 
-    isValid=true;
+//     isValid=true;
 
-    if(!emailans){
-        document.querySelector("#email-error").textContent="email is incorrect";
-        document.querySelector("#email-error").style.display="initial";
-        isValid=false;
-    }
+//     if(!emailans){
+//         document.querySelector("#email-error").textContent="email is incorrect";
+//         document.querySelector("#email-error").style.display="initial";
+//         isValid=false;
+//     }
 
-    if(!passwordans){
-        document.querySelector("#password-error").textContent="Passwpord is incorrect";
-        document.querySelector("#password-error").style.display="initial";
-        isValid=false
-    }
+//     if(!passwordans){
+//         document.querySelector("#password-error").textContent="Passwpord is incorrect";
+//         document.querySelector("#password-error").style.display="initial";
+//         isValid=false
+//     }
 
-    if(isValid){
-        document.querySelector(".resultMessage").textContent="Everytjinf is correct";
-        document.querySelector(".resultMessage").style.color = "green";
-    }
+//     if(isValid){
+//         document.querySelector(".resultMessage").textContent="Everytjinf is correct";
+//         document.querySelector(".resultMessage").style.color = "green";
+//     }
 
-})
+// })
+
+
+// DOWNLOAD PROGRESS BAR / LOADBAR
+
+// let count = 0;
+// let seconds = 3;
+// let progress = document.querySelector(".progress");
+// let percentage = document.querySelector("#percentage");
+// let h2 = document.querySelector("h2");
+
+// let intv = setInterval(function(){
+//     if(count <= 99){
+//         count++;
+//         progress.style.width=`${count}%`;
+//         percentage.textContent=`${count}%`;
+//     }
+//     else{
+//          h2.textContent="DOWNLOADED";
+//          clearInterval(intv);
+//     }
+
+// },(seconds*1000)/100);
