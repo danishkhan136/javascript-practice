@@ -1020,7 +1020,7 @@
 //     document.querySelector("#email-error").textContent = "";
 //     document.querySelector("#password-error").textContent = "";
 
-    
+
 //     const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[A-Za-z]{2,}$/;
 
 //     const passwordRegex =
@@ -1071,3 +1071,20 @@
 //     }
 
 // },(seconds*1000)/100);
+
+// ALERT AFTER 3 SECONDS
+
+// const btn = document.querySelector("#btn");
+// const alertBox = document.querySelector("#alert");
+
+// btn.addEventListener("click", function () {
+
+//     // Show alert
+//     alertBox.style.display = "block";
+
+//     // Hide alert after 3 seconds
+//     setTimeout(function () {
+//         alertBox.style.display = "none";
+//     }, 3000);
+
+// });
