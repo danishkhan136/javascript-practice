@@ -16,3 +16,25 @@
 // localStorage.removeItem("name");
 
 // for upate we also use setitem is overdie the value of alerady give value
+
+// there is another option localStorage.clear(); for clear the data
+
+
+// localStorage.setItem("friends", JSON.stringify(["danish", "wajahat", "mazz"])); // JSON.stringify() to add array and objects to store them
+
+// JSON.parse(); use to take out it in arry or object fprm from localStorage();
+
+// let fr = JSON.parse(localStorage.getItem("friends"));
+
+
+// sessionStorage
+
+// it is apply same as local storage start with sessionStorage.______();
+
+
+
+//cookies
+
+//  cookies ma joo bhi data store karo gaa wo page reload hona per automtically server pa gai gaa
+
+// document.cookie = "email=danish@test.com";
