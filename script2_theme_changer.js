@@ -38,3 +38,48 @@
 //  cookies ma joo bhi data store karo gaa wo page reload hona per automtically server pa gai gaa
 
 // document.cookie = "email=danish@test.com";
+
+
+function setDarkorLight() {
+    if (window.matchMedia("(prefers-color-scheme: light)").matches) {
+        document.body.classList.add("light");
+        document.body.classList.remove("dark");
+    }
+    else {
+        document.body.classList.add("dark");
+        document.body.classList.remove("light");    
+    }
+}
+
+setDarkorLight();
+
+if(localStorage.getItem("theme")){
+    document.body.classList.add(localStorage.getItem("theme"))
+}
+else{
+    setDarkorLight();
+}
+
+window.matchMedia('(prefers-color-scheme: light)').addEventListener("change", function () {
+    if(!localStorage.getItem("theme")){setDarkorLight();}
+})  
+
+
+
+let btn = document.querySelector("button");
+
+btn.addEventListener("click", function () {
+    if (document.body.classList.contains("dark")) {
+        (document.body.classList.remove("dark"))
+        (document.body.classList.add("light"))
+
+        localStorage.setItem("theme","light")
+    }
+    else{
+        (document.body.classList.remove("light"))
+        (document.body.classList.add("dark"))
+
+        localStorage.setItem("theme","dark")
+    }
+}
+)
