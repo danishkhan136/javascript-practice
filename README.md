@@ -6,7 +6,7 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-Logic-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![Responsive](https://img.shields.io/badge/Responsive-Design-success?style=for-the-badge)
 
-A structured JavaScript learning and practice repository containing DOM manipulation exercises, event handling practice, array methods, state management, responsive UI design, and interactive front-end mini-projects[cite: 3].
+A structured JavaScript learning and practice repository containing DOM manipulation exercises, event handling practice, array methods, state management, responsive UI design, and interactive front-end mini-projects.
 
 This repository represents my hands-on journey of learning JavaScript by writing, testing, and improving code through practical examples and interactive web applications.
 
@@ -14,9 +14,9 @@ This repository represents my hands-on journey of learning JavaScript by writing
 
 ## 📌 About the Project
 
-This repository was created as a practical learning environment while studying front-end web development and JavaScript programming[cite: 3].
+This repository was created as a practical learning environment while studying front-end web development and JavaScript programming.
 
-Instead of keeping all practice code in one place, the repository is organized into a dedicated practice sandbox and separate project folders so that each concept and UI application can be studied, built, and tested separately[cite: 3].
+Instead of keeping all practice code in one place, the repository is organized into a dedicated practice sandbox and separate project folders so that each concept and UI application can be studied, built, and tested separately.
 
 The repository progresses from basic JavaScript syntax and DOM selection to more practical front-end concepts such as:
 - DOM Manipulation
@@ -24,22 +24,22 @@ The repository progresses from basic JavaScript syntax and DOM selection to more
 - Array Filtering & Iteration (`.filter()`, `.forEach()`)
 - Dynamic HTML Element Creation (`createElement`, `appendChild`)
 - Real-Time Search & Data Filtering
-- State Management & Theme Toggling[cite: 3]
+- State Management & Theme Toggling
 - String Methods (`.startsWith()`)
 - Responsive Flexbox Layouts
 - Tailwind CSS Utility Styling
 - Glassmorphism & Custom CSS Filters
 - Error State Handling ("No User Found")
 
-It also contains interactive mini-projects that apply the concepts learned throughout the practice sessions[cite: 3].
+It also contains interactive mini-projects that apply the concepts learned throughout the practice sessions.
 
 ---
 
 ## 🎯 Purpose
 
-The main purpose of this repository is to build a strong foundation in Vanilla JavaScript and front-end development through consistent coding practice and hands-on implementation[cite: 3].
+The main purpose of this repository is to build a strong foundation in Vanilla JavaScript and front-end development through consistent coding practice and hands-on implementation.
 
-The focus is not only on understanding JavaScript syntax, but also on learning how programming logic interacts with HTML and CSS to build real, user-friendly interfaces[cite: 3].
+The focus is not only on understanding JavaScript syntax, but also on learning how programming logic interacts with HTML and CSS to build real, user-friendly interfaces.
 
 ### Main Objectives
 - Build strong Vanilla JavaScript fundamentals
@@ -48,15 +48,15 @@ The focus is not only on understanding JavaScript syntax, but also on learning h
 - Understand real-time UI updates based on user input
 - Learn modern responsive design using Flexbox and Tailwind CSS
 - Practice dynamic rendering of data arrays into HTML cards
-- Develop interactive front-end mini-projects[cite: 3]
-- Maintain a structured record of JavaScript learning progress[cite: 3]
+- Develop interactive front-end mini-projects
+- Maintain a structured record of JavaScript learning progress
 
 ---
 
 ## 📚 Topics Covered
 
 ### 1. JavaScript Basics & Sandbox Practice
-The practice directory focuses on core JavaScript concepts and testing logic, including[cite: 3]:
+The practice directory focuses on core JavaScript concepts and testing logic, including:
 - Variables (`let`, `const`)
 - Data types & Objects
 - Arrays of objects
@@ -124,10 +124,10 @@ Alongside JavaScript, this repository practices modern styling techniques:
 
 ## 🎮 Projects
 
-The repository contains interactive front-end projects created to apply the concepts learned during JavaScript practice[cite: 3].
+The repository contains interactive front-end projects created to apply the concepts learned during JavaScript practice.
 
 ### 🔍 1. User Finder
-A dynamic, responsive user directory and real-time search application[cite: 1, 2, 3].
+A dynamic, responsive user directory and real-time search application.
 
 **The program:**
 - Stores a collection of user profiles (name, profile picture, and bio) in a JavaScript array
@@ -138,15 +138,15 @@ A dynamic, responsive user directory and real-time search application[cite: 1, 2
 - Wraps cards neatly across rows (up to 7 cards per row on large screens) using Flexbox and Tailwind CSS
 
 ### 🎨 2. Theme Changer
-An interactive UI project demonstrating state changes and dynamic styling[cite: 3].
+An interactive UI project demonstrating state changes and dynamic styling.
 
 **The program:**
 - Captures user interaction via event listeners
-- Dynamically updates CSS properties and classes on the DOM[cite: 3]
+- Dynamically updates CSS properties and classes on the DOM
 - Switches the visual theme of the webpage smoothly without reloading
 
 ### 🧪 3. Practice Sandbox
-A dedicated workspace (`Practice/`) containing `index.html`, `style.css`, and `script.js` for experimenting with raw JavaScript logic, DOM methods, and UI snippets before implementing them into complete projects[cite: 3].
+A dedicated workspace (`Practice/`) containing `index.html`, `style.css`, and `script.js` for experimenting with raw JavaScript logic, DOM methods, and UI snippets before implementing them into complete projects.
 
 ---
 
@@ -176,7 +176,6 @@ javascript-practice-main/
 │
 └── README.md
 ```
-[cite: 3]
 
 ---
 
@@ -184,10 +183,10 @@ javascript-practice-main/
 
 | Technology | Purpose |
 |---|---|
-| **HTML5** | Main page structure and semantic layout[cite: 3] |
-| **CSS3** | Custom styling, card dimensions, glassmorphism blur effects, and layout rules[cite: 3] |
+| **HTML5** | Main page structure and semantic layout |
+| **CSS3** | Custom styling, card dimensions, glassmorphism blur effects, and layout rules |
 | **Tailwind CSS (CDN)** | Utility-first styling, flexbox wrapping, spacing, and responsive design |
-| **Vanilla JavaScript (ES6+)** | Core programming logic, DOM manipulation, event handling, and array filtering[cite: 3] |
+| **Vanilla JavaScript (ES6+)** | Core programming logic, DOM manipulation, event handling, and array filtering |
 
 No complex build tools, backend servers, or `npm` installations are required for the exercises and projects included in this repository.
 
@@ -200,7 +199,7 @@ You only need a modern web browser (such as Google Chrome, Edge, or Firefox) and
 
 ### Clone the Repository
 ```bash
-git clone [https://github.com/danishkhan136/javascript-practice-main.git](https://github.com/danishkhan136/javascript-practice-main.git)
+git clone https://github.com/danishkhan136/javascript-practice.git
 ```
 
 Move into the project directory:
@@ -215,15 +214,15 @@ cd javascript-practice-main
 Because these are client-side front-end projects, you can run any project directly in your browser.
 
 ### Option 1: Open Directly
-Navigate to any project folder and double-click the `index.html` file[cite: 3]:
-- `Practice/index.html`[cite: 3]
-- `Projects/user Finder/index.html`[cite: 3]
-- `Projects/theme changer/index.html`[cite: 3]
+Navigate to any project folder and double-click the `index.html` file:
+- `Practice/index.html`
+- `Projects/user Finder/index.html`
+- `Projects/theme changer/index.html`
 
 ### Option 2: Run with VS Code Live Server (Recommended)
 1. Open the repository folder in **VS Code**.
 2. Install the **Live Server** extension.
-3. Right-click on any `index.html` file and select **Open with Live Server**[cite: 3].
+3. Right-click on any `index.html` file and select **Open with Live Server**.
 
 ---
 
@@ -250,7 +249,6 @@ Mini Project 1: Theme Changer
       ↓
 Mini Project 2: User Finder (Real-Time Search & Responsive UI)
 ```
-[cite: 3]
 
 This progression makes it easier to build knowledge step by step before combining DOM manipulation, array filtering, and responsive CSS into complete applications.
 
@@ -267,7 +265,7 @@ Working on this repository helped me develop a practical understanding of JavaSc
 - Handling empty states and displaying dynamic feedback (`"No User Found"`)
 - Fixing layout overflow issues using `flex-wrap`, `min-height: 100vh`, and max-width constraints
 - Combining custom CSS rules (like blurred image masks) with Tailwind CSS utilities
-- Organizing multiple front-end projects cleanly inside a single repository[cite: 3]
+- Organizing multiple front-end projects cleanly inside a single repository
 
 ---
 
@@ -289,7 +287,7 @@ Planned improvements include:
 
 **Status:** 🚧 *Continuously Learning & Improving*
 
-This repository is an ongoing collection of JavaScript practice, DOM exercises, and front-end mini-projects[cite: 3]. New concepts and applications will be added as my JavaScript skills develop.
+This repository is an ongoing collection of JavaScript practice, DOM exercises, and front-end mini-projects. New concepts and applications will be added as my JavaScript skills develop.
 
 ---
 
@@ -297,9 +295,9 @@ This repository is an ongoing collection of JavaScript practice, DOM exercises, 
 
 This repository represents an important part of my web development journey.
 
-Rather than focusing only on theory, I am using this repository to learn by writing code, fixing UI/CSS bugs, debugging JavaScript logic, and building interactive web projects[cite: 3].
+Rather than focusing only on theory, I am using this repository to learn by writing code, fixing UI/CSS bugs, debugging JavaScript logic, and building interactive web projects.
 
-Every practice script and mini-project represents another step toward becoming a stronger and more confident software developer[cite: 3].
+Every practice script and mini-project represents another step toward becoming a stronger and more confident software developer.
 
 ---
 
@@ -315,7 +313,7 @@ https://github.com/danishkhan136
 
 ## ⭐ Support
 
-If you find this repository useful or want to follow my JavaScript learning journey, feel free to star ⭐ the repository and explore the different practice files and projects[cite: 3].
+If you find this repository useful or want to follow my JavaScript learning journey, feel free to star ⭐ the repository and explore the different practice files and projects.
 
 ---
 
