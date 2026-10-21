@@ -148,7 +148,3 @@ If you like this project, consider giving it a star on GitHub.
 Made with dedication by **Danish Khan**
 
 ```
-
-Yeh format bilkul ready hai. Maine aapka naam (Danish Khan) aur GitHub username (danishkhan136) har link aur section mein update kar diya hai. Aap is pure block ko direct copy kar ke apni README.md file mein paste kar sakte hain, koi editing ki zaroorat nahi padegi.
-
-```
