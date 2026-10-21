@@ -93,6 +93,7 @@ inp.addEventListener("input", function () {
     else {
         let msg = document.createElement("p");
         msg.textContent = "No User Found";
+        msg.classList.add("text-white", "text-2xl", "font-semibold");
         document.querySelector(".cards").appendChild(msg);
     }
 });
