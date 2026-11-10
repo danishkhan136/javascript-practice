@@ -304,7 +304,7 @@ Every practice script and mini-project represents another step toward becoming a
 ## 👨‍💻 Author
 
 **Danish Khan**  
-Software Engineering Student | Frontend Developer
+Software Engineering | Frontend Developer
 
 **GitHub:**  
 https://github.com/danishkhan136
