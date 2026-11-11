@@ -7,9 +7,9 @@ let result = "";
 const num = [];
 
 
-const removeDuplicates = new Set(num)
-const newDAta = [...removeDuplicates]
-console.log(newDAta)
+// const removeDuplicates = new Set(num)
+// const newDAta = [...removeDuplicates]
+// console.log(newDAta)
 
 addBtn.addEventListener("click", function () {
     if (input.value === "") {
@@ -19,11 +19,17 @@ addBtn.addEventListener("click", function () {
 
     const value = Number(input.value);
 
+    if (num.includes(value)) {
+        alert("This number already exists!");
+        return;
+    }
+
+
     num.push(value);
 
-    a=arrayDisplay.textContent = JSON.stringify(num);
-    
-    
+    arrayDisplay.textContent = JSON.stringify(num);
+
+
 
 
     input.value = "";
@@ -34,7 +40,7 @@ generateBtn.addEventListener("click", function () {
 
     let result = "";
 
-    newDAta.forEach(element => {
+    num.forEach(element => {
 
         let table = "<div class='table-card'>";
 
